@@ -1,0 +1,43 @@
+.feedbackBtn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 42px;
+  justify-content: center;
+
+  min-width: 140px;
+
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.feedbackBtn:focus {
+  color: #171e29;
+}
+
+.feedbackBtn:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+  background-color: rgb(0, 255, 255);
+}
+
+.feedbackBtn:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+.feedbackBtn:nth-of-type(even) {
+  margin: auto 15px;
+}
